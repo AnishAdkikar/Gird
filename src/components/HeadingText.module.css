@@ -1,0 +1,15 @@
+.headingText {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'KanitMedium';
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+@font-face {
+    font-family: "KanitMedium";
+    src: local("KanitMedium"),
+    url("../Fonts/Kanit/Kanit-Medium.ttf") format("truetype");
+}

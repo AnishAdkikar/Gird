@@ -1,0 +1,15 @@
+.scrollableList {
+  position: relative;
+  display: flex;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0;
+  overflow-x: auto;
+  width: auto;
+  height: auto;
+}
+
+.scrollableList::-webkit-scrollbar {
+  display: none;
+}
+

@@ -1,0 +1,38 @@
+.loginpage{
+ position: absolute;
+text-align: center;
+background-color: white;
+top: 20%;
+left:35%;
+width:30%;
+height: 65%;
+border-radius: 6px;
+box-shadow:20px 10px 10px 2px ;
+}
+.heading{
+   font-family: "KanitMedium";
+   font-weight: 800;
+   letter-spacing: 2px;
+   font-size: 3rem; 
+}
+.input_text{
+    width:300px;
+    height:35px;
+    border-radius: 4px;
+    padding:3px;
+}
+.input_password{
+    width:300px;
+    height:35px;
+    border-radius: 4px;
+    padding:3px;
+}
+.button_submit{
+    background-color:  #1A1A1A;
+    color:white;
+    margin:20px;
+    width:300px;
+    height: 38px;
+    border-radius: 20px;
+
+}
