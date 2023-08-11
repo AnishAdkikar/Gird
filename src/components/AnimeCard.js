@@ -5,7 +5,7 @@ import '../Fonts/Kanit/Kanit-Medium.ttf'
 
 export default function AnimeCard({anime,setAnimeInfo}){
     return (
-        <article className={styles.animeCard} onClick={()=>setAnimeInfo(anime)}>
+        <article className={styles.animeCard}>
             <div class={styles.cardContainer} >
                 <img className={styles.images} alt='' src={anime.images.jpg.image_url} />
                 <div class={styles.gradient}></div>

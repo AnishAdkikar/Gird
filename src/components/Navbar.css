@@ -1,0 +1,80 @@
+/* Navbar.css */
+.custom-navbar {
+  background-color: burlywood;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 200px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  position: relative;
+}
+
+.navbar-links a {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  color: #ffc107;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  display: none;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-links li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown-menu a:hover {
+  color: #ffc107;
+}
+
+
+/* Styles.css (or your stylesheet) */
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 32px; /* Set the desired width */
+  height: 32px; /* Maintain the aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 8px; /* Add some space between the button and the photo */
+}
