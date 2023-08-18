@@ -1,80 +1,101 @@
 /* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins&display=swap');
+
 .custom-navbar {
-  background-color: burlywood;
-  color: black;
+  background-color: rgb(50, 84, 235);
+  color: whitesmoke;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  border-radius: 200px;
+  height: 5%;
+  border-radius: 0 0 1% 1% / 0 0 10% 10%;
+}
+
+.nav-spacer-1 {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
 }
 
 .navbar-logo {
+  height: 5rem;
+  width: auto;
+}
+
+.navbar-search-icon {
+  height: 2rem;
+  padding: 0.25rem;
+  width: auto;
+}
+
+.nav-search-bar {
+  border: None;
+  height: 2rem;
+  width: 30rem;
+  font-family: 'Kanit', sans-serif;
+  padding: 0.25rem;
+  padding-left: 0.6rem;
+  border-radius: 5% / 50%;
+  margin: 1rem;
+  font-size: 1rem;
+  margin-right: 0.25rem;
+}
+
+.nav-spacer-2 {
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: flex-end;
+}
+
+.login-button {
+  height: 2.25rem;
+  width: 5rem;
+  padding: 0;
+  border-style: solid;
+  border-color: antiquewhite;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 15% / 25%;
+  text-align: center;
+}
+
+.login-button:hover {
+  border-color: rgb(248, 212, 12);
+  color: rgb(248, 212, 12);
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: black 1em;
+}
+
+.cart-icon {
+  height: 2rem;
+}
+
+.cart-button {
+  background-color: transparent;
+  border: None;
+}
+
+.cart-button:hover {
+  box-shadow: 0.25rem 0.25rem 0.25rem black;
+}
+
+.welcome-msg {
+  font-family: 'Kanit', sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar-links li {
-  position: relative;
-}
-
-.navbar-links a {
-  align-items: center;
-  display: flex;
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s ease-in-out;
-}
-
-.navbar-links a:hover {
-  color: #ffc107;
-}
-
-/* Dropdown Menu */
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #333;
-  display: none;
-  list-style: none;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.navbar-links li:hover .dropdown-menu {
-  display: block;
-}
-
-.dropdown-menu li {
-  margin: 5px 0;
-}
-
-.dropdown-menu a {
-  color: white;
-}
-
-.dropdown-menu a:hover {
-  color: #ffc107;
-}
-
-
-/* Styles.css (or your stylesheet) */
-.user-profile {
-  display: flex;
-  align-items: center;
+  margin-right: 1rem;
 }
 
 .profile-photo {
-  width: 32px; /* Set the desired width */
-  height: 32px; /* Maintain the aspect ratio */
-  border-radius: 50%; /* Make the image circular */
-  margin-right: 8px; /* Add some space between the button and the photo */
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%; 
+  margin-right: 8px; 
+  margin-right: 1rem;
 }

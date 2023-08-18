@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins&display=swap');
+
+.productCard{
+    margin: 0.5rem;
+    max-width: 15rem;
+    max-height: 21.2rem;
+    border-radius: 0.75rem;
+    margin-top: 0;
+    transition: 0.3s;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.buttonSpacer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.wishlistButton {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    position: relative;
+    margin: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.cartButton {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    margin: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.cartButton:hover {
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(48, 46, 46);
+}
+
+.wishlistButton:hover {
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(48, 46, 46);
+}
+
+.images {
+    width: 15rem;
+    height: 21.2rem;
+    border-radius: 0.75rem;
+}
+
+.cardContainer{
+    text-overflow: clip;
+    position: relative;
+}
+
+.gradient {
+    position: absolute;
+    bottom: 0;
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(0deg, 
+                              rgba(10, 10, 10,0.9) 0%, 
+                              rgba(45, 45, 45,0.9030023094688222) 24%, 
+                              rgba(128,128,129,0) 51%, 
+                              rgba(255,255,255,0) 100%);
+    border-radius: 0.75rem;
+}
+
+.cardTitle { 
+    position: absolute;
+    bottom: 0.2rem;
+    color: white;
+    margin: 0.4rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+
+   
