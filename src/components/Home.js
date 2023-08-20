@@ -6,6 +6,7 @@ import Navbar from './Navbar.js';
 import Banner from './Banner.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import RecProducts from './RecProducts.js';
+import CategoryBar from './CategoryBar.js';
 
 function Home() {
   const [user] = useAuthState(auth);
@@ -14,9 +15,10 @@ function Home() {
     <Router>
       <div>
         <Navbar user={user} />
+        <CategoryBar />
         <Banner />
         <Routes>
-          <Route
+          {/* <Route
             exact
             path='/'
             element={
@@ -25,7 +27,7 @@ function Home() {
                 {user && <RecProducts />}
               </div>
             }
-          />
+          /> */}
         </Routes>
       </div>
     </Router>
